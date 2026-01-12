@@ -1,3 +1,52 @@
+body{
+background-color: #0f0f0f;
+color: rgb(255, 255, 255);
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 60px;
+background: #2c2c2c;
+backdrop-filter: blur(10px);
+}
+.hero{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(135deg, #373838, #573956) ;
+}
+.hero-box{
+background: rgba(255, 255, 255, 0.15);
+padding: 50px;
+border border-radius: 15px;
+text-align:center;
+backdrop-filter:blur(10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 a {
   text-decoration: none;
   position: relative;
