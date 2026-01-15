@@ -71,3 +71,56 @@ a:hover {
   color: #0D7CFF;
   text-shadow: 0 0 10px #3562df, 0 0 20px #0D7CFF, 0 0 30px #0D7CFF, 0 0 40px #0D7CFF;
 }
+.hire-btn:hover{
+  background: white;
+}
+.hire-btn{
+  display: inline-block;
+  margin-top: 20%;
+  padding: 12px 30px;
+  background: #00f2fe;
+  color: #111;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.popular{
+  border: 20px solid #00f2fe;
+}
+.work-hero{
+  padding: 100px 40px;
+  text-align: center;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+.work-hero h2{
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.pricing{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.price{
+  font-size: 32px;
+  margin: 15px 0;
+}
+.about-images {
+margin-top: 40px;
+display: flex;
+gap: 25px;
+justify-content: center;
+flex-wrap: wrap;
+}
+.about-images img{
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.about-images img:hover{
+  transform: translateY(-8px);
+}
